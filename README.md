@@ -32,25 +32,26 @@ pip install -r requirements.txt
 ## Dataset
 
 The dataset consists of images of Leah and other cats. The images are organized into two main folders: `train` and `tes` both of these two folders contain another two sub folders: `LEA` and `OTHER` (Lea is my own cat while other means any other cat).
-image_data/
-├── train/
-│   ├── LEA
-│			└── image_1.jpg
-│			└── image_2.jpg
-│			└── image_n.jpg
-│	  ├── OTHER
-│			└── image_1.jpg
-│			└── image_2.jpg
-│			└── image_m.jpg
-├── test/
-│   ├── LEA
-│			└── image_1.jpg
-│			└── image_2.jpg
-│			└── image_x.jpg
-│	  ├── OTHER
-│			└── image_1.jpg 
-│			└── image_2.jpg
-│			└── image_x.jpg
+
+image_data/ <br>
+├── train/<br>
+│   ├── LEA<br>
+│   │   └── image_1.jpg<br>
+│   │   └── image_2.jpg<br>
+│   │   └── image_n.jpg<br>
+│   ├── OTHER<br>
+│   │   └── image_1.jpg<br>
+│   │   └── image_2.jpg<br>
+│   │   └── image_m.jpg<br>
+├── test/<br>
+│   ├── LEA<br>
+│   │   └── image_1.jpg<br>
+│   │   └── image_2.jpg<br>
+│   │   └── image_x.jpg<br>
+│   ├── OTHER<br>
+│   │   └── image_1.jpg<br>
+│   │   └── image_2.jpg<br>
+│   │   └── image_x.jpg<br>
 
 For the other cats I used Kaggle Cats and Dogs dataset (check: https://www.kaggle.com/datasets/erkamk/cat-and-dog-images-dataset) and for my cat i used images taken by me or my siblings of many angles, The first problem i encountered is the lack of data
 Cats dataset contains about 600 images while i only got about 60 images of my cat, its obviously a huge class imbalance.
@@ -78,8 +79,6 @@ The model is a Convolutional Neural Network (CNN) built using TensorFlow/Keras. 
 3. **Global Average Pooling:** The output of the base model is passed through a Global Average Pooling layer to reduce the spatial dimensions.
 4. **Fully Connected Layer:** This is followed by a dense (fully connected) layer with 1,024 neurons and ReLU activation.
 5. **Output Layer:** Finally, there is an output layer with a single neuron and sigmoid activation to predict whether the image is of Leah or another cat.
-
-## Training
 
 ## Training
 
