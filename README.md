@@ -2,7 +2,8 @@
 
 This project is a Convolutional Neural Network (CNN) model designed to classify my cat Leah out of other cats. The model is trained using TensorFlow/Keras and can be used to distinguish Leah from other cats in images.
 
-![Description of Image](https://github.com/zakmins/classify_lea_CNN/tree/main/assets/leah.jpg)
+<img src="https://raw.githubusercontent.com/zakmins/classify_lea_CNN/main/assets/leah.jpg" alt="Description of Image" width="300"/>
+
 
 
 ## Table of Contents
@@ -96,6 +97,12 @@ To train the model, follow these steps:
 4. **Recompile the Model:** We compile the model again with the same optimizer, loss function, and metrics. This step is necessary because we've changed which layers are trainable.
 
 5. **Final Training:** We train the model again for another 25 epochs. This time, the entire model, including the previously frozen base model layers, is trained. This allows for fine-tuning of the entire network, potentially leading to better performance.
+
+****Train Result:****
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/zakmins/classify_lea_CNN/main/assets/cap.png" alt="Description of Image" width="280"/>
+</p>
 
 ## Evaluation
 
