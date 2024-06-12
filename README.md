@@ -2,6 +2,9 @@
 
 This project is a Convolutional Neural Network (CNN) model designed to classify my cat Leah out of other cats. The model is trained using TensorFlow/Keras and can be used to distinguish Leah from other cats in images.
 
+![Description of Image](https://github.com/zakmins/classify_lea_CNN/tree/main/assets/leah.jpg)
+
+
 ## Table of Contents
 
 1. Project Overview
